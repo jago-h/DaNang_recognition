@@ -5,7 +5,7 @@ from PIL import Image
 # Load your YOLOv8 model
 model = YOLO('PATH TO YOUR YOLO MODEL')
 
-classes = ["Công viên APEC (APEC Park)", "Bảo tàng Mỹ thuật (Fine Art Museum)", "Công viên Asia (Asia Park)", "Nhà thờ Đà Nẵng (Cathedral)", "Cầu Rồng (Dragon Brigde)", "Chùa Linh Ứng (Lady Buddha)", "Núi Ngũ Hành Sơn (Marble Mountains)", "Cầu Trần Thị Lý (Sail Bridge)", "Chợ Cồn (Con Market)"]
+classes = ["Công viên APEC (APEC Park)", "Bảo tàng Mỹ thuật (Fine Art Museum)", "Công viên Asia (Asia Park)", "Nhà thờ Đà Nẵng (Cathedral)", "Cầu Rồng (Dragon Bridge)", "Chùa Linh Ứng (Lady Buddha)", "Núi Ngũ Hành Sơn (Marble Mountains)", "Cầu Trần Thị Lý (Sail Bridge)", "Chợ Cồn (Con Market)"]
 
 def detect_places(image):
     # Perform detection
