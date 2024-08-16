@@ -46,12 +46,12 @@ To run this project locally, follow these steps:
     ```bash
     pip install tensorflow-macos tensorflow-metal
     ```
-    more details: [text](https://pytorch.org/docs/stable/notes/mps.html)
+    more details: [pytorch-MPS](https://pytorch.org/docs/stable/notes/mps.html)
 
 ## Dataset
 
 The project expects a dataset organized in the following structure:
-
+```
 dataset/
 │
 ├── train/
@@ -68,7 +68,7 @@ dataset/
 │ ├── class1/
 │ ├── class2/
 │ └── ...
-
+```
 
 Update the `data_dir` in `danang.py` with the path to your dataset.
 
